@@ -1,0 +1,12 @@
+we split the data into test and train 
+
+xtrain,xtest,ytrain,ytest = train_test_split(x,y,test_size=0.2,train_size=0.8)
+
+the testsize denotes the percentage of data you wanted to feed in the testing data
+
+and trainsize denotes the percentage of data you wanted to feed in the training data
+
+
+also it does not take them serialy from data it take the training from the randome sampling of the data which is usefull to trian more accurately 
+
+there is also a method call random_state which takes an integer value on applying random_state no matter how many time we compile the program the train data will be the same 

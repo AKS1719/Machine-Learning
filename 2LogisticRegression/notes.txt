@@ -1,0 +1,52 @@
+Logistic Regresssion :
+    Logistic Regression is a techniques used for classification problems 
+
+Classification types:
+
+    1:
+        will customer buy life insurance 
+            - yes
+            - no
+
+        this example is called BINARY CLASSIFICATION as it has only two 
+        categories of answer
+    
+    2:
+        which party a person is going to vote?
+            - Democratic
+            - Republican
+            - Independent
+        this example is call MULTICLASS CLASSIFICATION as it has more than two categories of answer
+
+
+STEP 1 : 
+    plot a graph
+
+STEP 2: 
+    WE FIND A sigmoid or logit function 
+
+    SIGMOID FUNCTION 
+
+        sigmoid(z) = 1 / (1+ e^(-z))
+        where the e = euler's number ~ 2.271828
+
+
+        here in the sigmoid function 1 is getting divided by a number slightly greater than 1 which means the result will be in the range of [0,1]
+
+        so from this we can conclude that 
+
+        the sigmoid function coverts input into range 0 to 1
+
+
+        so in linear regression we are finding the y using 
+
+        y =  m*x +b so now we will pass the same line to the sigmoid function that is 
+
+        y = sigmoid(m*x +b) = 1/(1+e^(-(m*x+b)))
+
+
+
+
+
+
+

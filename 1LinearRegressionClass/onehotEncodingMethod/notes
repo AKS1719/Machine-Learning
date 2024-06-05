@@ -1,0 +1,29 @@
+when a data set contains string type column there occurs a problem for machine to understand it 
+as the machines only now the numerical data for triaing the model
+
+these variables are called as categorical variables 
+
+categorical VARIABLES : ARE OF TWO TYPES :
+    nominal : does't have any numerical order in them 
+        eg: color of object, gender etc
+    ordinal : where the categories have some sort of numerical order
+        eg: graduate < masters < phd
+
+APPROACH 1: 
+    to solve this issue we can assign each string a certain integer value 
+
+    but the machine could misinterpret as values and start to think a string assigned number is somthing related to it's order it weight or it' importance
+
+
+APPROACH 2:
+    we create columns for each string and mark their values 1 in the row where they are present and mark the rest rows as 0 
+    eg 
+        town                monroe      westwinder      robbinsvilee
+
+        monroe              1           0               0
+        monroe              1           0               0
+        monroe              1           0               0
+        westwinder          0           1               0
+        westwinder          0           1               0
+        robbinsville        0           0               1
+        robbinsvilee        0           0               1

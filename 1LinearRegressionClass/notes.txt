@@ -1,0 +1,101 @@
+it is better used in profit estimation or price calculation 
+
+using the information provided we can find the price 
+
+
+independent variable and dependent variables .....
+
+    -> An INDEPENDENT variable whose value does not change by the effect of other variables and is used to manipulate the dependent variable.    it is often denoted as X.
+
+    -> A DEPENDENT variable whose value changes when thee is any manipulation in the values of independent variables . it is often denoted as Y.
+
+    Example:
+        we need to calculate how much crop can be produced on raining 
+        Here the rain is an independent variable since it cannot be controlled 
+        but the production of crops is dependent on the rain 
+
+Numerical and categorical data 
+
+    suppose there is  a databse consisting of data , we want to divide data into the categorical and numerical data 
+    
+    NUMERICAL data is numbers like age,salary, height (containes range of information)
+    CATERGORICAL data is description like color,dog's bread,gender (limited to very specifical items)
+
+Machine learning algorithms
+
+    -> Supervised --> well defined
+    -> Unsupervised --> group of data not so well defined 
+    -> Reinforcement --> only positive and negative feedback 
+
+    SUPERVISED:
+        Regression and Classifiction
+
+        --> Regression:
+            -> Simple Linear Regression -> imagine a lots of data in a plot and we find a line passing from them which gives the graph
+            -> Multiple Linear Regression -> multiple variables 
+            -> Polynomial Linear Regresiion -> we can draw a curved line through the data 
+
+        APPLICATIONS OF LINEAR REGRESSSION 
+            -> Economic growth :
+                    used to determine the economice growth of a country or a state in the coming quarter, can also be used to predict the GSP of a country 
+            -> Product price :
+                    Can be used to predict what would be the price of a product in the future 
+            -> Housing Sales :
+                    To estimate the number of houses a builder would sell and at what price in the coming months 
+            -> Score predictions:
+                    To predict the number of runs a player would score in the coming matches based on previous performance 
+
+
+LINEAR REGRESSION :
+
+    Theory :
+        Linear Regression is a statistical model used to predict the relationship between independent and dependent variables by examining two factors 
+            -> Which variables in particular are significant predictors of the outcome variables ? 
+            -> How significant is the Regression line to make predictions with highes possible accuracy ? 
+
+
+    Euclidean Geometry :
+        The simplest form of a simple linear regressoin equation with one dependenet and one independent variable is represented by 
+
+                    y = m*x + c;
+
+                    m = (y2-y1)/(x2-x1)
+
+                    y = dependenet variable
+                    m = slope of the line 
+                    x = independent variable 
+                    c  = coefficient of the line 
+
+    Intuition behind the regression line 
+        
+        Lets consider a sample dataset with 5 rows and find out how to draw the regression line 
+
+                    mean 
+        x 1 2 3 4 5   3
+        y 2 4 5 4 5   4
+
+        linear queation is represented 
+
+        m = ((n* summision(x*y))- (summision(x)*summision(y)))/ ((n*summision(x^2)) - summision(x)^2) = 0.6
+
+        c = ((summision(y)*summision(x^2))- (summision(x)*summision(x*y))) / ((n*summision(x^2))- summision(x)^2) = 2.2
+
+        x is find by mean sqaure method etc...
+
+
+Multiple Linear Regression :
+
+    it has multiple variable with it so there would be multiple slopes the equations  for multiple linear regresson goes as follows 
+
+            y = m1*x1 + m2*x2 + .... + mn*xn + c
+
+
+
+Examples where linear regression can be used 
+
+        Home Prices
+        Weather 
+        Stock Prices
+    
+    Here the predicted value is continous
+

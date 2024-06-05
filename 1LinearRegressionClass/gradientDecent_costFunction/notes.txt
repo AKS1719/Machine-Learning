@@ -1,0 +1,7 @@
+In out classwork in school we learnt to calculate values of x and y using a given equation 
+
+In machine learning we do the reverse process of finding the equation based on x and y 
+
+GRADIENT DESCENT : is and algorithm that finds best fit line for given training data set efficiently
+
+in GRADIENT DESCENT we assume some  value of  m and b and the by following the graph reaching the minimal point global minimum
